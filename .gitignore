@@ -1,0 +1,106 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project specific
+# Large data files
+data/physionet.org/
+*.edf
+*.edf.seizures
+
+# Generated output files (keep directory structure but ignore large files)
+output/features/*.csv
+output/features_combined.csv
+output/*.pkl
+output/*.joblib
+output/models/*.pkl
+output/models/*.joblib
+
+# JMP files (binary format)
+*.jmp
+
+# Keep important output files
+!output/selected_features.csv
+!output/feature_importance.csv
+!output/normalized_features.csv
+!output/cleaned_features.csv
+!output/balanced_dataset.csv
+
+# Keep model results and visualizations
+!output/models/*.json
+!output/models/*.png
+!output/*.png
+!output/*.csv
+
+# Logs
+*.log

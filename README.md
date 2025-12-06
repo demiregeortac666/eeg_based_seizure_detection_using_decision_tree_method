@@ -48,11 +48,7 @@ Our models achieved exceptional results in seizure detection:
 ![Feature Importance](output/feature_importance.png)
 *Relative importance of different EEG features*
 
-![Data Distribution Before Normalization](output/pre_normalization.png)
-*Feature distribution before normalization*
 
-![Data Distribution After Normalization](output/post_normalization_standard.png)
-*Feature distribution after standardization*
 
 ### Most Important EEG Features
 
